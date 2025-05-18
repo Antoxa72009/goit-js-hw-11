@@ -2,13 +2,13 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vanilla-app-template/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href="/goit-js-hw-11/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vanilla App Template</title>
-    <script type="module" crossorigin src="/vanilla-app-template/index.js"></script>
-    <link rel="modulepreload" crossorigin href="/vanilla-app-template/assets/vendor-dsYlHsC8.js">
-    <link rel="stylesheet" crossorigin href="/vanilla-app-template/assets/vendor-DkczhqSJ.css">
-    <link rel="stylesheet" crossorigin href="/vanilla-app-template/assets/index-Ba-kgamz.css">
+    <script type="module" crossorigin src="/goit-js-hw-11/index.js"></script>
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-11/assets/vendor-dsYlHsC8.js">
+    <link rel="stylesheet" crossorigin href="/goit-js-hw-11/assets/vendor-DkczhqSJ.css">
+    <link rel="stylesheet" crossorigin href="/goit-js-hw-11/assets/index-CIsx7iE-.css">
   </head>
   <body>
     <form class="form">
@@ -21,17 +21,11 @@
       />
       <button type="submit" class="search-button">Search</button>
 
-      <!-- Повідомлення про помилку -->
       <div id="errorBox" style="display: none"></div>
     </form>
-    <!-- Лоадер -->
-    <div class="loader-container hidden" id="loaderBox">
-      <div class="loader"></div>
-      <span>Loading images, please wait...</span>
-    </div>
 
-    <!-- Галерея -->
-    <div class="gallery" id="gallery"></div>
+    <span id="loaderBox" class="loader hidden"></span>
+    <ul class="gallery"></ul>
 
   </body>
 </html>
