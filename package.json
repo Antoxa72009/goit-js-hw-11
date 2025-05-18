@@ -1,6 +1,7 @@
 {
   "name": "vanilla-app-template",
   "private": true,
+  "homepage": "https://antoxa72009.github.io/goit-js-hw-11/",
   "version": "1.0.0",
   "type": "module",
   "scripts": {
